@@ -1,0 +1,20 @@
+spring:
+  application:
+    name: file-manage
+  servlet:
+    multipart:
+      max-file-size: 2048MB
+      max-request-size: 2048MB
+
+server:
+  port: 9999
+  servlet:
+    context-path: /file-manage
+    session:
+      timeout: 10000m
+  tomcat:
+    uri-encoding: UTF-8
+  max-http-header-size: 8192
+
+logging:
+  config:  classpath:config/logback.xml

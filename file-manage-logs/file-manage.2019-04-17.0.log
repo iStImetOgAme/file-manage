@@ -1,0 +1,33 @@
+2019-04-17 20:48:30.174 [main] INFO  com.genius.filemanage.FileManageApplication-Starting FileManageApplication on Liuxh with PID 17104 (G:\Java\file-manage\target\classes started by Administrator in G:\Java\file-manage)
+2019-04-17 20:48:30.194 [main] INFO  com.genius.filemanage.FileManageApplication-No active profile set, falling back to default profiles: default
+2019-04-17 20:48:32.954 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer-Tomcat initialized with port(s): 9999 (http)
+2019-04-17 20:48:32.984 [main] INFO  org.apache.coyote.http11.Http11NioProtocol-Initializing ProtocolHandler ["http-nio-9999"]
+2019-04-17 20:48:32.994 [main] INFO  org.apache.catalina.core.StandardService-Starting service [Tomcat]
+2019-04-17 20:48:32.994 [main] INFO  org.apache.catalina.core.StandardEngine-Starting Servlet engine: [Apache Tomcat/9.0.17]
+2019-04-17 20:48:33.004 [main] INFO  org.apache.catalina.core.AprLifecycleListener-An older version [1.2.16] of the APR based Apache Tomcat Native library is installed, while Tomcat recommends a minimum version of [1.2.21]
+2019-04-17 20:48:33.014 [main] INFO  org.apache.catalina.core.AprLifecycleListener-Loaded APR based Apache Tomcat Native library [1.2.16] using APR version [1.6.3].
+2019-04-17 20:48:33.014 [main] INFO  org.apache.catalina.core.AprLifecycleListener-APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+2019-04-17 20:48:33.014 [main] INFO  org.apache.catalina.core.AprLifecycleListener-APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2019-04-17 20:48:34.144 [main] INFO  org.apache.catalina.core.AprLifecycleListener-OpenSSL successfully initialized [OpenSSL 1.0.2m  2 Nov 2017]
+2019-04-17 20:48:34.454 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/file-manage]-Initializing Spring embedded WebApplicationContext
+2019-04-17 20:48:34.454 [main] INFO  org.springframework.web.context.ContextLoader-Root WebApplicationContext: initialization completed in 4180 ms
+2019-04-17 20:48:34.944 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor-Initializing ExecutorService 'applicationTaskExecutor'
+2019-04-17 20:48:35.304 [main] INFO  org.apache.coyote.http11.Http11NioProtocol-Starting ProtocolHandler ["http-nio-9999"]
+2019-04-17 20:48:35.354 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer-Tomcat started on port(s): 9999 (http) with context path '/file-manage'
+2019-04-17 20:48:35.354 [main] INFO  com.genius.filemanage.FileManageApplication-Started FileManageApplication in 6.86 seconds (JVM running for 9.787)
+2019-04-17 20:49:27.434 [http-nio-9999-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/file-manage]-Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-04-17 20:49:27.435 [http-nio-9999-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet-Initializing Servlet 'dispatcherServlet'
+2019-04-17 20:49:27.445 [http-nio-9999-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet-Completed initialization in 10 ms
+2019-04-17 20:49:27.780 [http-nio-9999-exec-1] INFO  com.genius.filemanage.business.service.FileService--->downloadByZip Begin. Paths : [{"entryName":"/AAA/BBB/CCC/doge.jpg","entryValue":"/test/aaa/aaa/doge_1555332990583.jpg"},{"entryName":"/AAA/BBB/鸟哥Linux私房菜.pdf","entryValue":"/test/aaa/aaa/鸟哥Linux私房菜_1555332991013.pdf"},{"entryName":"/AAA/BBB/CCC/DDBBB.doge.jpg","entryValue":"/test/doge_1555332615490.jpg"}]
+2019-04-17 20:49:27.828 [http-nio-9999-exec-1] INFO  com.genius.filemanage.business.service.FileService--->downloadZip Delete exist zip files. Path : D:/genius/upload/BBB.zip
+2019-04-17 20:49:27.829 [http-nio-9999-exec-1] INFO  com.genius.filemanage.business.service.FileService--->downloadByZip Finish. Paths : [{"entryName":"BBB/CCC/doge.jpg","entryValue":"/test/aaa/aaa/doge_1555332990583.jpg"},{"entryName":"BBB/鸟哥Linux私房菜.pdf","entryValue":"/test/aaa/aaa/鸟哥Linux私房菜_1555332991013.pdf"},{"entryName":"BBB/CCC/DDBBB.doge.jpg","entryValue":"/test/doge_1555332615490.jpg"}]
+2019-04-17 20:51:40.986 [http-nio-9999-exec-5] INFO  com.genius.filemanage.business.service.FileService--->upload Request Address : 0:0:0:0:0:0:0:1
+2019-04-17 20:51:40.987 [http-nio-9999-exec-5] INFO  com.genius.filemanage.business.service.FileService--->upload Begin. Path : /test/aaa/aaa
+2019-04-17 20:51:40.988 [http-nio-9999-exec-5] INFO  com.genius.filemanage.business.service.FileService--->upload Finish. Path : test/aaa/aaa/
+2019-04-17 20:51:41.050 [http-nio-9999-exec-5] INFO  com.genius.filemanage.common.utils.FileUtils--->upload fileRealName : 鸟哥Linux私房菜.pdf
+2019-04-17 20:51:41.051 [http-nio-9999-exec-5] INFO  com.genius.filemanage.common.utils.FileUtils--->upload fileName : 鸟哥Linux私房菜
+2019-04-17 20:51:41.107 [http-nio-9999-exec-5] INFO  com.genius.filemanage.common.utils.FileUtils--->upload fileRealName : 鸟哥Linux私房菜.pdf
+2019-04-17 20:51:41.108 [http-nio-9999-exec-5] INFO  com.genius.filemanage.common.utils.FileUtils--->upload fileName : 鸟哥Linux私房菜
+2019-04-17 20:51:41.139 [http-nio-9999-exec-5] INFO  com.genius.filemanage.common.utils.FileUtils--->upload Success file : [{"name":"鸟哥Linux私房菜.pdf","path":"/test/aaa/aaa/鸟哥Linux私房菜_1555505501051.pdf","size":14394446,"type":"pdf"},{"name":"鸟哥Linux私房菜.pdf","path":"/test/aaa/aaa/鸟哥Linux私房菜_1555505501108.pdf","size":14394446,"type":"pdf"}]
+2019-04-17 20:51:41.139 [http-nio-9999-exec-5] INFO  com.genius.filemanage.common.utils.FileUtils--->upload Invalid file : []
+2019-04-17 20:51:41.139 [http-nio-9999-exec-5] INFO  com.genius.filemanage.common.utils.FileUtils--->upload Fail file : []

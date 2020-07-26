@@ -1,0 +1,3 @@
+mvn install:install-file -Dfile=/Users/liuxh/JavaCode/file-manage/maven/ueditor.jar -DgroupId=com.baidu -DartifactId=ueditor -Dversion=1.1.2 -Dpackaging=jar
+
+mvn install:install-file -Dfile=/Users/liuxh/JavaCode/file-manage/maven/json.jar -DgroupId=org.json -DartifactId=json -Dversion=1.1.0 -Dpackaging=jar

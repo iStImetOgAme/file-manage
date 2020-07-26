@@ -1,0 +1,460 @@
+2019-04-16 09:26:37.633 [main] INFO  com.genius.filemanage.FileManageApplication-Starting FileManageApplication on DESKTOP-B7076NA with PID 37692 (H:\Java\file-manage\target\classes started by liuxh in H:\Java\file-manage)
+2019-04-16 09:26:37.636 [main] INFO  com.genius.filemanage.FileManageApplication-No active profile set, falling back to default profiles: default
+2019-04-16 09:26:39.244 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer-Tomcat initialized with port(s): 9999 (http)
+2019-04-16 09:26:39.296 [main] INFO  org.apache.coyote.http11.Http11NioProtocol-Initializing ProtocolHandler ["http-nio-9999"]
+2019-04-16 09:26:39.328 [main] INFO  org.apache.catalina.core.StandardService-Starting service [Tomcat]
+2019-04-16 09:26:39.328 [main] INFO  org.apache.catalina.core.StandardEngine-Starting Servlet engine: [Apache Tomcat/9.0.17]
+2019-04-16 09:26:39.454 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/file-manage]-Initializing Spring embedded WebApplicationContext
+2019-04-16 09:26:39.455 [main] INFO  org.springframework.web.context.ContextLoader-Root WebApplicationContext: initialization completed in 1760 ms
+2019-04-16 09:26:39.691 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor-Initializing ExecutorService 'applicationTaskExecutor'
+2019-04-16 09:26:39.864 [main] INFO  org.apache.coyote.http11.Http11NioProtocol-Starting ProtocolHandler ["http-nio-9999"]
+2019-04-16 09:26:39.887 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer-Tomcat started on port(s): 9999 (http) with context path '/file-manage'
+2019-04-16 09:26:39.890 [main] INFO  com.genius.filemanage.FileManageApplication-Started FileManageApplication in 3.132 seconds (JVM running for 4.536)
+2019-04-16 09:34:40.158 [http-nio-9999-exec-2] INFO  o.a.c.c.C.[Tomcat].[localhost].[/file-manage]-Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-04-16 09:34:40.158 [http-nio-9999-exec-2] INFO  org.springframework.web.servlet.DispatcherServlet-Initializing Servlet 'dispatcherServlet'
+2019-04-16 09:34:40.165 [http-nio-9999-exec-2] INFO  org.springframework.web.servlet.DispatcherServlet-Completed initialization in 7 ms
+2019-04-16 09:34:40.193 [http-nio-9999-exec-2] INFO  org.apache.tomcat.util.http.Parameters-Invalid chunk starting at byte [0] and ending at byte [1] with a value of [=] ignored
+ Note: further occurrences of Parameter errors will be logged at DEBUG level.
+2019-04-16 09:34:40.264 [http-nio-9999-exec-2] INFO  com.genius.filemanage.business.service.FileService--->upload Request Address : 0:0:0:0:0:0:0:1
+2019-04-16 09:34:40.274 [http-nio-9999-exec-2] INFO  com.genius.filemanage.business.service.FileService--->upload Begin Path : /
+2019-04-16 09:34:40.274 [http-nio-9999-exec-2] INFO  com.genius.filemanage.business.service.FileService--->upload Finish. Path : 
+2019-04-16 09:34:40.279 [http-nio-9999-exec-2] INFO  com.genius.filemanage.common.utils.FileUtils--->upload fileRealName : 风景.jpg
+2019-04-16 09:34:40.279 [http-nio-9999-exec-2] INFO  com.genius.filemanage.common.utils.FileUtils--->upload fileName : 风景
+2019-04-16 09:35:02.780 [http-nio-9999-exec-2] INFO  com.genius.filemanage.common.utils.FileUtils--->upload Success file : []
+2019-04-16 09:35:02.780 [http-nio-9999-exec-2] INFO  com.genius.filemanage.common.utils.FileUtils--->upload Invalid file : []
+2019-04-16 09:35:02.810 [http-nio-9999-exec-2] INFO  com.genius.filemanage.common.utils.FileUtils--->upload Fail file : [{"name":"风景.jpg","size":40074,"type":"jpg"}]
+2019-04-16 09:36:47.155 [main] INFO  com.genius.filemanage.FileManageApplication-Starting FileManageApplication on DESKTOP-B7076NA with PID 52444 (H:\Java\file-manage\target\classes started by liuxh in H:\Java\file-manage)
+2019-04-16 09:36:47.181 [main] INFO  com.genius.filemanage.FileManageApplication-No active profile set, falling back to default profiles: default
+2019-04-16 09:36:48.552 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer-Tomcat initialized with port(s): 9999 (http)
+2019-04-16 09:36:48.566 [main] INFO  org.apache.coyote.http11.Http11NioProtocol-Initializing ProtocolHandler ["http-nio-9999"]
+2019-04-16 09:36:48.574 [main] INFO  org.apache.catalina.core.StandardService-Starting service [Tomcat]
+2019-04-16 09:36:48.574 [main] INFO  org.apache.catalina.core.StandardEngine-Starting Servlet engine: [Apache Tomcat/9.0.17]
+2019-04-16 09:36:48.687 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/file-manage]-Initializing Spring embedded WebApplicationContext
+2019-04-16 09:36:48.687 [main] INFO  org.springframework.web.context.ContextLoader-Root WebApplicationContext: initialization completed in 1344 ms
+2019-04-16 09:36:48.954 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor-Initializing ExecutorService 'applicationTaskExecutor'
+2019-04-16 09:36:49.174 [main] INFO  org.apache.coyote.http11.Http11NioProtocol-Starting ProtocolHandler ["http-nio-9999"]
+2019-04-16 09:36:49.205 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer-Tomcat started on port(s): 9999 (http) with context path '/file-manage'
+2019-04-16 09:36:49.211 [main] INFO  com.genius.filemanage.FileManageApplication-Started FileManageApplication in 2.755 seconds (JVM running for 3.559)
+2019-04-16 09:37:11.461 [http-nio-9999-exec-2] INFO  o.a.c.c.C.[Tomcat].[localhost].[/file-manage]-Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-04-16 09:37:11.462 [http-nio-9999-exec-2] INFO  org.springframework.web.servlet.DispatcherServlet-Initializing Servlet 'dispatcherServlet'
+2019-04-16 09:37:11.467 [http-nio-9999-exec-2] INFO  org.springframework.web.servlet.DispatcherServlet-Completed initialization in 5 ms
+2019-04-16 09:37:11.473 [http-nio-9999-exec-2] INFO  org.apache.tomcat.util.http.Parameters-Invalid chunk starting at byte [0] and ending at byte [1] with a value of [=] ignored
+ Note: further occurrences of Parameter errors will be logged at DEBUG level.
+2019-04-16 09:37:11.533 [http-nio-9999-exec-2] INFO  com.genius.filemanage.business.service.FileService--->upload Request Address : 0:0:0:0:0:0:0:1
+2019-04-16 09:37:11.535 [http-nio-9999-exec-2] INFO  com.genius.filemanage.business.service.FileService--->upload Begin Path : /
+2019-04-16 09:37:11.535 [http-nio-9999-exec-2] INFO  com.genius.filemanage.business.service.FileService--->upload Finish. Path : 
+2019-04-16 09:37:11.538 [http-nio-9999-exec-2] INFO  com.genius.filemanage.common.utils.FileUtils--->upload fileRealName : 风景.jpg
+2019-04-16 09:37:11.538 [http-nio-9999-exec-2] INFO  com.genius.filemanage.common.utils.FileUtils--->upload fileName : 风景
+2019-04-16 09:37:32.214 [http-nio-9999-exec-2] INFO  com.genius.filemanage.common.utils.FileUtils--->upload Success file : []
+2019-04-16 09:37:32.215 [http-nio-9999-exec-2] INFO  com.genius.filemanage.common.utils.FileUtils--->upload Invalid file : []
+2019-04-16 09:37:32.247 [http-nio-9999-exec-2] INFO  com.genius.filemanage.common.utils.FileUtils--->upload Fail file : [{"name":"风景.jpg","size":40074,"type":"jpg"}]
+2019-04-16 09:41:57.426 [http-nio-9999-exec-5] INFO  com.genius.filemanage.business.service.FileService--->upload Request Address : 0:0:0:0:0:0:0:1
+2019-04-16 09:41:57.427 [http-nio-9999-exec-5] INFO  com.genius.filemanage.business.service.FileService--->upload Begin Path : /
+2019-04-16 09:41:57.427 [http-nio-9999-exec-5] INFO  com.genius.filemanage.business.service.FileService--->upload Finish. Path : 
+2019-04-16 09:41:57.427 [http-nio-9999-exec-5] INFO  com.genius.filemanage.common.utils.FileUtils--->upload fileRealName : 风景.jpg
+2019-04-16 09:41:57.427 [http-nio-9999-exec-5] INFO  com.genius.filemanage.common.utils.FileUtils--->upload fileName : 风景
+2019-04-16 09:42:14.763 [http-nio-9999-exec-5] INFO  com.genius.filemanage.common.utils.FileUtils--->upload fileRealName : timg.jpg
+2019-04-16 09:42:17.668 [http-nio-9999-exec-5] INFO  com.genius.filemanage.common.utils.FileUtils--->upload fileName : timg
+2019-04-16 09:42:34.540 [http-nio-9999-exec-5] INFO  com.genius.filemanage.common.utils.FileUtils--->upload Success file : [{"miniThumbnailPath":"/mini_timg_1555378938357.jpg","name":"timg.jpg","path":"timg_1555378938357.jpg","size":6903,"thumbnailPath":"/thumb_timg_1555378938357.jpg","type":"jpg"}]
+2019-04-16 09:42:35.676 [http-nio-9999-exec-5] INFO  com.genius.filemanage.common.utils.FileUtils--->upload Invalid file : []
+2019-04-16 09:42:36.828 [http-nio-9999-exec-5] INFO  com.genius.filemanage.common.utils.FileUtils--->upload Fail file : [{"name":"风景.jpg","size":40074,"type":"jpg"}]
+2019-04-16 09:43:15.219 [main] INFO  com.genius.filemanage.FileManageApplication-Starting FileManageApplication on DESKTOP-B7076NA with PID 19764 (H:\Java\file-manage\target\classes started by liuxh in H:\Java\file-manage)
+2019-04-16 09:43:15.231 [main] INFO  com.genius.filemanage.FileManageApplication-No active profile set, falling back to default profiles: default
+2019-04-16 09:43:17.145 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer-Tomcat initialized with port(s): 9999 (http)
+2019-04-16 09:43:17.171 [main] INFO  org.apache.coyote.http11.Http11NioProtocol-Initializing ProtocolHandler ["http-nio-9999"]
+2019-04-16 09:43:17.183 [main] INFO  org.apache.catalina.core.StandardService-Starting service [Tomcat]
+2019-04-16 09:43:17.183 [main] INFO  org.apache.catalina.core.StandardEngine-Starting Servlet engine: [Apache Tomcat/9.0.17]
+2019-04-16 09:43:17.350 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/file-manage]-Initializing Spring embedded WebApplicationContext
+2019-04-16 09:43:17.350 [main] INFO  org.springframework.web.context.ContextLoader-Root WebApplicationContext: initialization completed in 1951 ms
+2019-04-16 09:43:17.866 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor-Initializing ExecutorService 'applicationTaskExecutor'
+2019-04-16 09:43:18.249 [main] INFO  org.apache.coyote.http11.Http11NioProtocol-Starting ProtocolHandler ["http-nio-9999"]
+2019-04-16 09:43:18.392 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer-Tomcat started on port(s): 9999 (http) with context path '/file-manage'
+2019-04-16 09:43:18.398 [main] INFO  com.genius.filemanage.FileManageApplication-Started FileManageApplication in 3.924 seconds (JVM running for 4.716)
+2019-04-16 09:43:31.366 [http-nio-9999-exec-9] INFO  o.a.c.c.C.[Tomcat].[localhost].[/file-manage]-Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-04-16 09:43:31.366 [http-nio-9999-exec-9] INFO  org.springframework.web.servlet.DispatcherServlet-Initializing Servlet 'dispatcherServlet'
+2019-04-16 09:43:31.374 [http-nio-9999-exec-9] INFO  org.springframework.web.servlet.DispatcherServlet-Completed initialization in 8 ms
+2019-04-16 09:43:31.388 [http-nio-9999-exec-9] INFO  org.apache.tomcat.util.http.Parameters-Invalid chunk starting at byte [0] and ending at byte [1] with a value of [=] ignored
+ Note: further occurrences of Parameter errors will be logged at DEBUG level.
+2019-04-16 09:43:31.506 [http-nio-9999-exec-9] INFO  com.genius.filemanage.business.service.FileService--->upload Request Address : 0:0:0:0:0:0:0:1
+2019-04-16 09:43:31.509 [http-nio-9999-exec-9] INFO  com.genius.filemanage.business.service.FileService--->upload Begin Path : /
+2019-04-16 09:43:31.509 [http-nio-9999-exec-9] INFO  com.genius.filemanage.business.service.FileService--->upload Finish. Path : 
+2019-04-16 09:43:31.604 [http-nio-9999-exec-9] INFO  com.genius.filemanage.common.utils.FileUtils--->upload fileRealName : 风景.jpg
+2019-04-16 09:43:31.605 [http-nio-9999-exec-9] INFO  com.genius.filemanage.common.utils.FileUtils--->upload fileName : 风景
+2019-04-16 09:43:38.478 [http-nio-9999-exec-9] INFO  com.genius.filemanage.common.utils.FileUtils--->upload fileRealName : timg.jpg
+2019-04-16 09:43:38.479 [http-nio-9999-exec-9] INFO  com.genius.filemanage.common.utils.FileUtils--->upload fileName : timg
+2019-04-16 09:43:48.439 [http-nio-9999-exec-9] INFO  com.genius.filemanage.common.utils.FileUtils--->upload Success file : [{"miniThumbnailPath":"/mini_timg_1555379018479.jpg","name":"timg.jpg","path":"timg_1555379018479.jpg","size":6903,"thumbnailPath":"/thumb_timg_1555379018479.jpg","type":"jpg"}]
+2019-04-16 09:43:48.787 [http-nio-9999-exec-9] INFO  com.genius.filemanage.common.utils.FileUtils--->upload Invalid file : []
+2019-04-16 09:43:51.486 [http-nio-9999-exec-9] INFO  com.genius.filemanage.common.utils.FileUtils--->upload Fail file : [{"name":"风景.jpg","size":40074,"type":"jpg"}]
+2019-04-16 09:47:12.057 [main] INFO  com.genius.filemanage.FileManageApplication-Starting FileManageApplication on DESKTOP-B7076NA with PID 12352 (H:\Java\file-manage\target\classes started by liuxh in H:\Java\file-manage)
+2019-04-16 09:47:12.066 [main] INFO  com.genius.filemanage.FileManageApplication-No active profile set, falling back to default profiles: default
+2019-04-16 09:47:13.145 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer-Tomcat initialized with port(s): 9999 (http)
+2019-04-16 09:47:13.158 [main] INFO  org.apache.coyote.http11.Http11NioProtocol-Initializing ProtocolHandler ["http-nio-9999"]
+2019-04-16 09:47:13.165 [main] INFO  org.apache.catalina.core.StandardService-Starting service [Tomcat]
+2019-04-16 09:47:13.165 [main] INFO  org.apache.catalina.core.StandardEngine-Starting Servlet engine: [Apache Tomcat/9.0.17]
+2019-04-16 09:47:13.272 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/file-manage]-Initializing Spring embedded WebApplicationContext
+2019-04-16 09:47:13.273 [main] INFO  org.springframework.web.context.ContextLoader-Root WebApplicationContext: initialization completed in 1075 ms
+2019-04-16 09:47:13.492 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor-Initializing ExecutorService 'applicationTaskExecutor'
+2019-04-16 09:47:13.656 [main] INFO  org.apache.coyote.http11.Http11NioProtocol-Starting ProtocolHandler ["http-nio-9999"]
+2019-04-16 09:47:13.677 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer-Tomcat started on port(s): 9999 (http) with context path '/file-manage'
+2019-04-16 09:47:13.680 [main] INFO  com.genius.filemanage.FileManageApplication-Started FileManageApplication in 2.265 seconds (JVM running for 2.939)
+2019-04-16 09:51:00.936 [http-nio-9999-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/file-manage]-Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-04-16 09:51:00.936 [http-nio-9999-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet-Initializing Servlet 'dispatcherServlet'
+2019-04-16 09:51:00.944 [http-nio-9999-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet-Completed initialization in 8 ms
+2019-04-16 09:51:00.955 [http-nio-9999-exec-1] INFO  org.apache.tomcat.util.http.Parameters-Invalid chunk starting at byte [0] and ending at byte [1] with a value of [=] ignored
+ Note: further occurrences of Parameter errors will be logged at DEBUG level.
+2019-04-16 09:51:01.118 [http-nio-9999-exec-1] INFO  com.genius.filemanage.business.service.FileService--->upload Request Address : 0:0:0:0:0:0:0:1
+2019-04-16 09:51:01.120 [http-nio-9999-exec-1] INFO  com.genius.filemanage.business.service.FileService--->upload Begin Path : /
+2019-04-16 09:51:01.120 [http-nio-9999-exec-1] INFO  com.genius.filemanage.business.service.FileService--->upload Finish. Path : 
+2019-04-16 09:51:01.133 [http-nio-9999-exec-1] INFO  com.genius.filemanage.common.utils.FileUtils--->upload fileRealName : 风景.jpg
+2019-04-16 09:51:01.133 [http-nio-9999-exec-1] INFO  com.genius.filemanage.common.utils.FileUtils--->upload fileName : 风景
+2019-04-16 09:51:07.516 [http-nio-9999-exec-1] INFO  com.genius.filemanage.common.utils.FileUtils--->upload fileRealName : timg.jpg
+2019-04-16 09:51:07.517 [http-nio-9999-exec-1] INFO  com.genius.filemanage.common.utils.FileUtils--->upload fileName : timg
+2019-04-16 09:51:11.396 [http-nio-9999-exec-1] INFO  com.genius.filemanage.common.utils.FileUtils--->upload Success file : [{"miniThumbnailPath":"/mini_timg_1555379467517.jpg","name":"timg.jpg","path":"timg_1555379467517.jpg","size":6903,"thumbnailPath":"/thumb_timg_1555379467517.jpg","type":"jpg"}]
+2019-04-16 09:51:11.396 [http-nio-9999-exec-1] INFO  com.genius.filemanage.common.utils.FileUtils--->upload Invalid file : []
+2019-04-16 09:51:11.396 [http-nio-9999-exec-1] INFO  com.genius.filemanage.common.utils.FileUtils--->upload Fail file : [{"name":"风景.jpg","size":40074,"type":"jpg"}]
+2019-04-16 09:51:46.914 [main] INFO  com.genius.filemanage.FileManageApplication-Starting FileManageApplication on DESKTOP-B7076NA with PID 57708 (H:\Java\file-manage\target\classes started by liuxh in H:\Java\file-manage)
+2019-04-16 09:51:46.922 [main] INFO  com.genius.filemanage.FileManageApplication-No active profile set, falling back to default profiles: default
+2019-04-16 09:51:47.929 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer-Tomcat initialized with port(s): 9999 (http)
+2019-04-16 09:51:47.943 [main] INFO  org.apache.coyote.http11.Http11NioProtocol-Initializing ProtocolHandler ["http-nio-9999"]
+2019-04-16 09:51:47.951 [main] INFO  org.apache.catalina.core.StandardService-Starting service [Tomcat]
+2019-04-16 09:51:47.951 [main] INFO  org.apache.catalina.core.StandardEngine-Starting Servlet engine: [Apache Tomcat/9.0.17]
+2019-04-16 09:51:48.067 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/file-manage]-Initializing Spring embedded WebApplicationContext
+2019-04-16 09:51:48.067 [main] INFO  org.springframework.web.context.ContextLoader-Root WebApplicationContext: initialization completed in 1104 ms
+2019-04-16 09:51:48.294 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor-Initializing ExecutorService 'applicationTaskExecutor'
+2019-04-16 09:51:48.459 [main] INFO  org.apache.coyote.http11.Http11NioProtocol-Starting ProtocolHandler ["http-nio-9999"]
+2019-04-16 09:51:48.480 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer-Tomcat started on port(s): 9999 (http) with context path '/file-manage'
+2019-04-16 09:51:48.483 [main] INFO  com.genius.filemanage.FileManageApplication-Started FileManageApplication in 2.277 seconds (JVM running for 2.915)
+2019-04-16 09:51:55.321 [http-nio-9999-exec-3] INFO  o.a.c.c.C.[Tomcat].[localhost].[/file-manage]-Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-04-16 09:51:55.321 [http-nio-9999-exec-3] INFO  org.springframework.web.servlet.DispatcherServlet-Initializing Servlet 'dispatcherServlet'
+2019-04-16 09:51:55.329 [http-nio-9999-exec-3] INFO  org.springframework.web.servlet.DispatcherServlet-Completed initialization in 8 ms
+2019-04-16 09:51:55.336 [http-nio-9999-exec-3] INFO  org.apache.tomcat.util.http.Parameters-Invalid chunk starting at byte [0] and ending at byte [1] with a value of [=] ignored
+ Note: further occurrences of Parameter errors will be logged at DEBUG level.
+2019-04-16 09:51:55.432 [http-nio-9999-exec-3] INFO  com.genius.filemanage.business.service.FileService--->upload Request Address : 0:0:0:0:0:0:0:1
+2019-04-16 09:51:55.435 [http-nio-9999-exec-3] INFO  com.genius.filemanage.business.service.FileService--->upload Begin Path : /
+2019-04-16 09:51:55.435 [http-nio-9999-exec-3] INFO  com.genius.filemanage.business.service.FileService--->upload Finish. Path : 
+2019-04-16 09:51:55.867 [http-nio-9999-exec-3] INFO  com.genius.filemanage.common.utils.FileUtils--->upload fileRealName : 风景.jpg
+2019-04-16 09:51:55.867 [http-nio-9999-exec-3] INFO  com.genius.filemanage.common.utils.FileUtils--->upload fileName : 风景
+2019-04-16 09:52:01.565 [http-nio-9999-exec-3] INFO  com.genius.filemanage.common.utils.FileUtils--->upload fileRealName : timg.jpg
+2019-04-16 09:52:01.565 [http-nio-9999-exec-3] INFO  com.genius.filemanage.common.utils.FileUtils--->upload fileName : timg
+2019-04-16 09:52:27.042 [http-nio-9999-exec-3] INFO  com.genius.filemanage.common.utils.FileUtils--->upload Success file : [{"miniThumbnailPath":"/mini_timg_1555379521565.jpg","name":"timg.jpg","path":"timg_1555379521565.jpg","size":6903,"thumbnailPath":"/thumb_timg_1555379521565.jpg","type":"jpg"}]
+2019-04-16 09:52:27.043 [http-nio-9999-exec-3] INFO  com.genius.filemanage.common.utils.FileUtils--->upload Invalid file : []
+2019-04-16 09:52:27.043 [http-nio-9999-exec-3] INFO  com.genius.filemanage.common.utils.FileUtils--->upload Fail file : [{"name":"风景.jpg","size":40074,"type":"jpg"}]
+2019-04-16 09:53:06.091 [main] INFO  com.genius.filemanage.FileManageApplication-Starting FileManageApplication on DESKTOP-B7076NA with PID 18632 (H:\Java\file-manage\target\classes started by liuxh in H:\Java\file-manage)
+2019-04-16 09:53:06.099 [main] INFO  com.genius.filemanage.FileManageApplication-No active profile set, falling back to default profiles: default
+2019-04-16 09:53:07.347 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer-Tomcat initialized with port(s): 9999 (http)
+2019-04-16 09:53:07.364 [main] INFO  org.apache.coyote.http11.Http11NioProtocol-Initializing ProtocolHandler ["http-nio-9999"]
+2019-04-16 09:53:07.371 [main] INFO  org.apache.catalina.core.StandardService-Starting service [Tomcat]
+2019-04-16 09:53:07.371 [main] INFO  org.apache.catalina.core.StandardEngine-Starting Servlet engine: [Apache Tomcat/9.0.17]
+2019-04-16 09:53:07.538 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/file-manage]-Initializing Spring embedded WebApplicationContext
+2019-04-16 09:53:07.538 [main] INFO  org.springframework.web.context.ContextLoader-Root WebApplicationContext: initialization completed in 1367 ms
+2019-04-16 09:53:07.803 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor-Initializing ExecutorService 'applicationTaskExecutor'
+2019-04-16 09:53:08.000 [main] INFO  org.apache.coyote.http11.Http11NioProtocol-Starting ProtocolHandler ["http-nio-9999"]
+2019-04-16 09:53:08.031 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer-Tomcat started on port(s): 9999 (http) with context path '/file-manage'
+2019-04-16 09:53:08.035 [main] INFO  com.genius.filemanage.FileManageApplication-Started FileManageApplication in 2.441 seconds (JVM running for 4.837)
+2019-04-16 09:53:20.900 [http-nio-9999-exec-2] INFO  o.a.c.c.C.[Tomcat].[localhost].[/file-manage]-Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-04-16 09:53:20.901 [http-nio-9999-exec-2] INFO  org.springframework.web.servlet.DispatcherServlet-Initializing Servlet 'dispatcherServlet'
+2019-04-16 09:53:20.913 [http-nio-9999-exec-2] INFO  org.springframework.web.servlet.DispatcherServlet-Completed initialization in 12 ms
+2019-04-16 09:53:20.928 [http-nio-9999-exec-2] INFO  org.apache.tomcat.util.http.Parameters-Invalid chunk starting at byte [0] and ending at byte [1] with a value of [=] ignored
+ Note: further occurrences of Parameter errors will be logged at DEBUG level.
+2019-04-16 09:53:21.131 [http-nio-9999-exec-2] INFO  com.genius.filemanage.business.service.FileService--->upload Request Address : 0:0:0:0:0:0:0:1
+2019-04-16 09:53:21.133 [http-nio-9999-exec-2] INFO  com.genius.filemanage.business.service.FileService--->upload Begin Path : /
+2019-04-16 09:53:21.133 [http-nio-9999-exec-2] INFO  com.genius.filemanage.business.service.FileService--->upload Finish. Path : 
+2019-04-16 09:53:21.323 [http-nio-9999-exec-2] INFO  com.genius.filemanage.common.utils.FileUtils--->upload fileRealName : 风景.jpg
+2019-04-16 09:53:21.323 [http-nio-9999-exec-2] INFO  com.genius.filemanage.common.utils.FileUtils--->upload fileName : 风景
+2019-04-16 09:53:28.087 [http-nio-9999-exec-2] INFO  com.genius.filemanage.common.utils.FileUtils--->upload fileRealName : timg.jpg
+2019-04-16 09:53:28.087 [http-nio-9999-exec-2] INFO  com.genius.filemanage.common.utils.FileUtils--->upload fileName : timg
+2019-04-16 09:53:54.556 [http-nio-9999-exec-2] INFO  com.genius.filemanage.common.utils.FileUtils--->upload Success file : [{"miniThumbnailPath":"/mini_timg_1555379608087.jpg","name":"timg.jpg","path":"timg_1555379608087.jpg","size":6903,"thumbnailPath":"/thumb_timg_1555379608087.jpg","type":"jpg"}]
+2019-04-16 09:53:54.556 [http-nio-9999-exec-2] INFO  com.genius.filemanage.common.utils.FileUtils--->upload Invalid file : []
+2019-04-16 09:53:54.556 [http-nio-9999-exec-2] INFO  com.genius.filemanage.common.utils.FileUtils--->upload Fail file : [{"name":"风景.jpg","size":40074,"type":"jpg"}]
+2019-04-16 09:54:09.508 [http-nio-9999-exec-3] INFO  com.genius.filemanage.business.service.FileService--->upload Request Address : 0:0:0:0:0:0:0:1
+2019-04-16 09:54:09.509 [http-nio-9999-exec-3] INFO  com.genius.filemanage.business.service.FileService--->upload Begin Path : /
+2019-04-16 09:54:09.509 [http-nio-9999-exec-3] INFO  com.genius.filemanage.business.service.FileService--->upload Finish. Path : 
+2019-04-16 09:54:09.509 [http-nio-9999-exec-3] INFO  com.genius.filemanage.common.utils.FileUtils--->upload fileRealName : 风景.jpg
+2019-04-16 09:54:09.509 [http-nio-9999-exec-3] INFO  com.genius.filemanage.common.utils.FileUtils--->upload fileName : 风景
+2019-04-16 09:54:09.596 [http-nio-9999-exec-3] INFO  com.genius.filemanage.common.utils.FileUtils--->upload fileRealName : timg.jpg
+2019-04-16 09:54:09.596 [http-nio-9999-exec-3] INFO  com.genius.filemanage.common.utils.FileUtils--->upload fileName : timg
+2019-04-16 09:54:09.612 [http-nio-9999-exec-3] INFO  com.genius.filemanage.common.utils.FileUtils--->upload Success file : [{"miniThumbnailPath":"/mini_风景_1555379649509.jpg","name":"风景.jpg","path":"风景_1555379649509.jpg","size":40074,"thumbnailPath":"/thumb_风景_1555379649509.jpg","type":"jpg"},{"miniThumbnailPath":"/mini_timg_1555379649596.jpg","name":"timg.jpg","path":"timg_1555379649596.jpg","size":6903,"thumbnailPath":"/thumb_timg_1555379649596.jpg","type":"jpg"}]
+2019-04-16 09:54:09.612 [http-nio-9999-exec-3] INFO  com.genius.filemanage.common.utils.FileUtils--->upload Invalid file : []
+2019-04-16 09:54:09.612 [http-nio-9999-exec-3] INFO  com.genius.filemanage.common.utils.FileUtils--->upload Fail file : []
+2019-04-16 09:54:24.939 [http-nio-9999-exec-4] INFO  com.genius.filemanage.business.service.FileService--->upload Request Address : 0:0:0:0:0:0:0:1
+2019-04-16 09:54:24.939 [http-nio-9999-exec-4] INFO  com.genius.filemanage.business.service.FileService--->upload Begin Path : /
+2019-04-16 09:54:24.940 [http-nio-9999-exec-4] INFO  com.genius.filemanage.business.service.FileService--->upload Finish. Path : 
+2019-04-16 09:54:24.940 [http-nio-9999-exec-4] INFO  com.genius.filemanage.common.utils.FileUtils--->upload fileRealName : 风景.jpg
+2019-04-16 09:54:24.940 [http-nio-9999-exec-4] INFO  com.genius.filemanage.common.utils.FileUtils--->upload fileName : 风景
+2019-04-16 09:55:05.362 [http-nio-9999-exec-4] INFO  com.genius.filemanage.common.utils.FileUtils--->upload fileRealName : timg.jpg
+2019-04-16 09:55:05.362 [http-nio-9999-exec-4] INFO  com.genius.filemanage.common.utils.FileUtils--->upload fileName : timg
+2019-04-16 09:55:06.166 [http-nio-9999-exec-4] INFO  com.genius.filemanage.common.utils.FileUtils--->upload Success file : [{"miniThumbnailPath":"/mini_timg_1555379705362.jpg","name":"timg.jpg","path":"timg_1555379705362.jpg","size":6903,"thumbnailPath":"/thumb_timg_1555379705362.jpg","type":"jpg"}]
+2019-04-16 09:55:06.166 [http-nio-9999-exec-4] INFO  com.genius.filemanage.common.utils.FileUtils--->upload Invalid file : []
+2019-04-16 09:55:06.166 [http-nio-9999-exec-4] INFO  com.genius.filemanage.common.utils.FileUtils--->upload Fail file : [{"name":"风景.jpg","size":40074,"type":"jpg"}]
+2019-04-16 09:55:28.024 [http-nio-9999-exec-5] INFO  com.genius.filemanage.business.service.FileService--->upload Request Address : 0:0:0:0:0:0:0:1
+2019-04-16 09:55:28.025 [http-nio-9999-exec-5] INFO  com.genius.filemanage.business.service.FileService--->upload Begin Path : /
+2019-04-16 09:55:28.025 [http-nio-9999-exec-5] INFO  com.genius.filemanage.business.service.FileService--->upload Finish. Path : 
+2019-04-16 09:55:28.025 [http-nio-9999-exec-5] INFO  com.genius.filemanage.common.utils.FileUtils--->upload fileRealName : 风景.jpg
+2019-04-16 09:55:28.025 [http-nio-9999-exec-5] INFO  com.genius.filemanage.common.utils.FileUtils--->upload fileName : 风景
+2019-04-16 09:56:18.920 [http-nio-9999-exec-5] INFO  com.genius.filemanage.common.utils.FileUtils--->upload fileRealName : timg.jpg
+2019-04-16 09:56:18.920 [http-nio-9999-exec-5] INFO  com.genius.filemanage.common.utils.FileUtils--->upload fileName : timg
+2019-04-16 09:56:20.137 [http-nio-9999-exec-5] INFO  com.genius.filemanage.common.utils.FileUtils--->upload Success file : [{"miniThumbnailPath":"/mini_timg_1555379778920.jpg","name":"timg.jpg","path":"timg_1555379778920.jpg","size":6903,"thumbnailPath":"/thumb_timg_1555379778920.jpg","type":"jpg"}]
+2019-04-16 09:56:20.137 [http-nio-9999-exec-5] INFO  com.genius.filemanage.common.utils.FileUtils--->upload Invalid file : []
+2019-04-16 09:56:20.138 [http-nio-9999-exec-5] INFO  com.genius.filemanage.common.utils.FileUtils--->upload Fail file : [{"name":"风景.jpg","size":40074,"type":"jpg"}]
+2019-04-16 09:57:45.289 [http-nio-9999-exec-8] INFO  com.genius.filemanage.business.service.FileService--->upload Request Address : 0:0:0:0:0:0:0:1
+2019-04-16 09:57:45.289 [http-nio-9999-exec-8] INFO  com.genius.filemanage.business.service.FileService--->upload Begin Path : /
+2019-04-16 09:57:45.289 [http-nio-9999-exec-8] INFO  com.genius.filemanage.business.service.FileService--->upload Finish. Path : 
+2019-04-16 09:57:45.290 [http-nio-9999-exec-8] INFO  com.genius.filemanage.common.utils.FileUtils--->upload fileRealName : 风景.jpg
+2019-04-16 09:57:45.290 [http-nio-9999-exec-8] INFO  com.genius.filemanage.common.utils.FileUtils--->upload fileName : 风景
+2019-04-16 09:57:51.195 [http-nio-9999-exec-8] INFO  com.genius.filemanage.common.utils.FileUtils--->upload fileRealName : timg.jpg
+2019-04-16 09:57:51.196 [http-nio-9999-exec-8] INFO  com.genius.filemanage.common.utils.FileUtils--->upload fileName : timg
+2019-04-16 09:57:56.993 [http-nio-9999-exec-8] INFO  com.genius.filemanage.common.utils.FileUtils--->upload Success file : [{"miniThumbnailPath":"/mini_timg_1555379871196.jpg","name":"timg.jpg","path":"timg_1555379871196.jpg","size":6903,"thumbnailPath":"/thumb_timg_1555379871196.jpg","type":"jpg"}]
+2019-04-16 09:57:56.993 [http-nio-9999-exec-8] INFO  com.genius.filemanage.common.utils.FileUtils--->upload Invalid file : []
+2019-04-16 09:57:56.993 [http-nio-9999-exec-8] INFO  com.genius.filemanage.common.utils.FileUtils--->upload Fail file : [{"name":"风景.jpg","size":40074,"type":"jpg"}]
+2019-04-16 10:00:18.252 [http-nio-9999-exec-1] INFO  com.genius.filemanage.business.service.FileService--->upload Request Address : 0:0:0:0:0:0:0:1
+2019-04-16 10:00:18.253 [http-nio-9999-exec-1] INFO  com.genius.filemanage.business.service.FileService--->upload Begin Path : /
+2019-04-16 10:00:18.253 [http-nio-9999-exec-1] INFO  com.genius.filemanage.business.service.FileService--->upload Finish. Path : 
+2019-04-16 10:00:18.253 [http-nio-9999-exec-1] INFO  com.genius.filemanage.common.utils.FileUtils--->upload fileRealName : 风景.jpg
+2019-04-16 10:00:18.254 [http-nio-9999-exec-1] INFO  com.genius.filemanage.common.utils.FileUtils--->upload fileName : 风景
+2019-04-16 10:00:33.308 [http-nio-9999-exec-1] INFO  com.genius.filemanage.common.utils.FileUtils--->upload fileRealName : timg.jpg
+2019-04-16 10:00:33.308 [http-nio-9999-exec-1] INFO  com.genius.filemanage.common.utils.FileUtils--->upload fileName : timg
+2019-04-16 10:00:34.289 [http-nio-9999-exec-1] INFO  com.genius.filemanage.common.utils.FileUtils--->upload Success file : [{"miniThumbnailPath":"/mini_timg_1555380033308.jpg","name":"timg.jpg","path":"timg_1555380033308.jpg","size":6903,"thumbnailPath":"/thumb_timg_1555380033308.jpg","type":"jpg"}]
+2019-04-16 10:00:34.289 [http-nio-9999-exec-1] INFO  com.genius.filemanage.common.utils.FileUtils--->upload Invalid file : []
+2019-04-16 10:00:34.290 [http-nio-9999-exec-1] INFO  com.genius.filemanage.common.utils.FileUtils--->upload Fail file : [{"errMsg":"文件未找到","name":"风景.jpg","size":40074,"type":"jpg"}]
+2019-04-16 10:05:32.531 [http-nio-9999-exec-4] INFO  com.genius.filemanage.business.service.FileService--->upload Request Address : 0:0:0:0:0:0:0:1
+2019-04-16 10:05:32.532 [http-nio-9999-exec-4] INFO  com.genius.filemanage.business.service.FileService--->upload Begin Path : /
+2019-04-16 10:05:32.532 [http-nio-9999-exec-4] INFO  com.genius.filemanage.business.service.FileService--->upload Finish. Path : 
+2019-04-16 10:05:32.532 [http-nio-9999-exec-4] INFO  com.genius.filemanage.common.utils.FileUtils--->upload fileRealName : 风景.jpg
+2019-04-16 10:05:32.532 [http-nio-9999-exec-4] INFO  com.genius.filemanage.common.utils.FileUtils--->upload fileName : 风景
+2019-04-16 10:05:41.917 [http-nio-9999-exec-4] INFO  com.genius.filemanage.common.utils.FileUtils--->upload fileRealName : timg.jpg
+2019-04-16 10:05:41.917 [http-nio-9999-exec-4] INFO  com.genius.filemanage.common.utils.FileUtils--->upload fileName : timg
+2019-04-16 10:05:42.702 [http-nio-9999-exec-4] INFO  com.genius.filemanage.common.utils.FileUtils--->upload Success file : [{"miniThumbnailPath":"/mini_timg_1555380341917.jpg","name":"timg.jpg","path":"timg_1555380341917.jpg","size":6903,"thumbnailPath":"/thumb_timg_1555380341917.jpg","type":"jpg"}]
+2019-04-16 10:05:42.702 [http-nio-9999-exec-4] INFO  com.genius.filemanage.common.utils.FileUtils--->upload Invalid file : []
+2019-04-16 10:05:42.702 [http-nio-9999-exec-4] INFO  com.genius.filemanage.common.utils.FileUtils--->upload Fail file : [{"errMsg":"文件未找到","name":"风景.jpg","size":40074,"type":"jpg"}]
+2019-04-16 10:38:22.289 [main] INFO  com.genius.filemanage.FileManageApplication-Starting FileManageApplication on DESKTOP-B7076NA with PID 31948 (H:\Java\file-manage\target\classes started by liuxh in H:\Java\file-manage)
+2019-04-16 10:38:22.297 [main] INFO  com.genius.filemanage.FileManageApplication-No active profile set, falling back to default profiles: default
+2019-04-16 10:38:23.235 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer-Tomcat initialized with port(s): 9999 (http)
+2019-04-16 10:38:23.250 [main] INFO  org.apache.coyote.http11.Http11NioProtocol-Initializing ProtocolHandler ["http-nio-9999"]
+2019-04-16 10:38:23.258 [main] INFO  org.apache.catalina.core.StandardService-Starting service [Tomcat]
+2019-04-16 10:38:23.258 [main] INFO  org.apache.catalina.core.StandardEngine-Starting Servlet engine: [Apache Tomcat/9.0.17]
+2019-04-16 10:38:23.369 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/file-manage]-Initializing Spring embedded WebApplicationContext
+2019-04-16 10:38:23.369 [main] INFO  org.springframework.web.context.ContextLoader-Root WebApplicationContext: initialization completed in 1029 ms
+2019-04-16 10:38:23.584 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor-Initializing ExecutorService 'applicationTaskExecutor'
+2019-04-16 10:38:23.786 [main] INFO  org.apache.coyote.http11.Http11NioProtocol-Starting ProtocolHandler ["http-nio-9999"]
+2019-04-16 10:38:23.810 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer-Tomcat started on port(s): 9999 (http) with context path '/file-manage'
+2019-04-16 10:38:23.814 [main] INFO  com.genius.filemanage.FileManageApplication-Started FileManageApplication in 2.633 seconds (JVM running for 3.857)
+2019-04-16 10:38:25.557 [http-nio-9999-exec-3] INFO  o.a.c.c.C.[Tomcat].[localhost].[/file-manage]-Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-04-16 10:38:25.557 [http-nio-9999-exec-3] INFO  org.springframework.web.servlet.DispatcherServlet-Initializing Servlet 'dispatcherServlet'
+2019-04-16 10:38:25.563 [http-nio-9999-exec-3] INFO  org.springframework.web.servlet.DispatcherServlet-Completed initialization in 6 ms
+2019-04-16 10:38:25.679 [http-nio-9999-exec-3] INFO  com.genius.filemanage.business.service.FileService--->downloadByZip Begin. Paths : [{"entryName":"/AAA/BBB/CCC/doge.jpg","entryValue":"/test/aaa/aaa/doge_1555332990583.jpg"},{"entryName":"/AAA/BBB/鸟哥Linux私房菜.pdf","entryValue":"/test/aaa/aaa/鸟哥Linux私房菜_1555332991013.pdf"},{"entryName":"/AAA/BBB/CCC/DDBBB.doge.jpg","entryValue":"/test/doge_1555332615490.jpg"}]
+2019-04-16 10:38:25.701 [http-nio-9999-exec-3] INFO  com.genius.filemanage.business.service.FileService--->downloadZip Delete exist zip files. Path : D:/genius/upload/BBB.zip
+2019-04-16 10:38:25.701 [http-nio-9999-exec-3] INFO  com.genius.filemanage.business.service.FileService--->downloadByZip Finish. Paths : [{"entryName":"BBB/CCC/doge.jpg","entryValue":"/test/aaa/aaa/doge_1555332990583.jpg"},{"entryName":"BBB/鸟哥Linux私房菜.pdf","entryValue":"/test/aaa/aaa/鸟哥Linux私房菜_1555332991013.pdf"},{"entryName":"BBB/CCC/DDBBB.doge.jpg","entryValue":"/test/doge_1555332615490.jpg"}]
+2019-04-16 14:57:02.760 [http-nio-9999-exec-6] INFO  com.genius.filemanage.business.service.FileService--->upload Request Address : 0:0:0:0:0:0:0:1
+2019-04-16 14:57:02.761 [http-nio-9999-exec-6] INFO  com.genius.filemanage.business.service.FileService--->upload Begin. Path : /
+2019-04-16 14:57:02.761 [http-nio-9999-exec-6] INFO  com.genius.filemanage.business.service.FileService--->upload Finish. Path : 
+2019-04-16 14:57:02.761 [http-nio-9999-exec-6] INFO  com.genius.filemanage.common.utils.FileUtils--->upload fileRealName : 风景.jpg
+2019-04-16 14:57:02.762 [http-nio-9999-exec-6] INFO  com.genius.filemanage.common.utils.FileUtils--->upload fileName : 风景
+2019-04-16 14:57:03.166 [http-nio-9999-exec-6] INFO  com.genius.filemanage.common.utils.FileUtils--->upload fileRealName : timg.jpg
+2019-04-16 14:57:03.166 [http-nio-9999-exec-6] INFO  com.genius.filemanage.common.utils.FileUtils--->upload fileName : timg
+2019-04-16 14:57:03.219 [http-nio-9999-exec-6] INFO  com.genius.filemanage.common.utils.FileUtils--->upload Success file : [{"miniThumbnailPath":"/mini_风景_1555397822762.jpg","name":"风景.jpg","path":"风景_1555397822762.jpg","size":40074,"thumbnailPath":"/thumb_风景_1555397822762.jpg","type":"jpg"},{"miniThumbnailPath":"/mini_timg_1555397823166.jpg","name":"timg.jpg","path":"timg_1555397823166.jpg","size":6903,"thumbnailPath":"/thumb_timg_1555397823166.jpg","type":"jpg"}]
+2019-04-16 14:57:03.219 [http-nio-9999-exec-6] INFO  com.genius.filemanage.common.utils.FileUtils--->upload Invalid file : []
+2019-04-16 14:57:03.219 [http-nio-9999-exec-6] INFO  com.genius.filemanage.common.utils.FileUtils--->upload Fail file : []
+2019-04-16 14:57:18.250 [http-nio-9999-exec-5] INFO  com.genius.filemanage.business.service.FileService--->upload Request Address : 0:0:0:0:0:0:0:1
+2019-04-16 14:57:18.251 [http-nio-9999-exec-5] INFO  com.genius.filemanage.business.service.FileService--->upload Begin. Path : /
+2019-04-16 14:57:18.251 [http-nio-9999-exec-5] INFO  com.genius.filemanage.business.service.FileService--->upload Finish. Path : 
+2019-04-16 14:57:18.251 [http-nio-9999-exec-5] INFO  com.genius.filemanage.common.utils.FileUtils--->upload fileRealName : 风景.jpg
+2019-04-16 14:57:18.251 [http-nio-9999-exec-5] INFO  com.genius.filemanage.common.utils.FileUtils--->upload fileName : 风景
+2019-04-16 14:57:26.267 [http-nio-9999-exec-5] INFO  com.genius.filemanage.common.utils.FileUtils--->upload Generate Thumbnail Image Failed, Error Message : 文件未找到
+2019-04-16 14:57:28.179 [http-nio-9999-exec-5] INFO  com.genius.filemanage.common.utils.FileUtils--->upload Generate MiniThumbnail Image Failed, Error Message : 文件未找到
+2019-04-16 14:57:32.361 [http-nio-9999-exec-5] INFO  com.genius.filemanage.common.utils.FileUtils--->upload fileRealName : timg.jpg
+2019-04-16 14:57:32.361 [http-nio-9999-exec-5] INFO  com.genius.filemanage.common.utils.FileUtils--->upload fileName : timg
+2019-04-16 14:57:34.960 [http-nio-9999-exec-5] INFO  com.genius.filemanage.common.utils.FileUtils--->upload Success file : [{"miniThumbnailPath":"","name":"风景.jpg","path":"风景_1555397838252.jpg","size":40074,"thumbnailPath":"","type":"jpg"},{"miniThumbnailPath":"/mini_timg_1555397852361.jpg","name":"timg.jpg","path":"timg_1555397852361.jpg","size":6903,"thumbnailPath":"/thumb_timg_1555397852361.jpg","type":"jpg"}]
+2019-04-16 14:57:34.960 [http-nio-9999-exec-5] INFO  com.genius.filemanage.common.utils.FileUtils--->upload Invalid file : []
+2019-04-16 14:57:34.960 [http-nio-9999-exec-5] INFO  com.genius.filemanage.common.utils.FileUtils--->upload Fail file : []
+2019-04-16 15:25:50.151 [main] INFO  com.genius.filemanage.FileManageApplication-Starting FileManageApplication on DESKTOP-B7076NA with PID 29156 (H:\Java\file-manage\target\classes started by liuxh in H:\Java\file-manage)
+2019-04-16 15:25:50.160 [main] INFO  com.genius.filemanage.FileManageApplication-No active profile set, falling back to default profiles: default
+2019-04-16 15:25:51.607 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer-Tomcat initialized with port(s): 9999 (http)
+2019-04-16 15:25:51.634 [main] INFO  org.apache.coyote.http11.Http11NioProtocol-Initializing ProtocolHandler ["http-nio-9999"]
+2019-04-16 15:25:51.643 [main] INFO  org.apache.catalina.core.StandardService-Starting service [Tomcat]
+2019-04-16 15:25:51.643 [main] INFO  org.apache.catalina.core.StandardEngine-Starting Servlet engine: [Apache Tomcat/9.0.17]
+2019-04-16 15:25:51.783 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/file-manage]-Initializing Spring embedded WebApplicationContext
+2019-04-16 15:25:51.783 [main] INFO  org.springframework.web.context.ContextLoader-Root WebApplicationContext: initialization completed in 1554 ms
+2019-04-16 15:25:52.042 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor-Initializing ExecutorService 'applicationTaskExecutor'
+2019-04-16 15:25:52.296 [main] INFO  org.apache.coyote.http11.Http11NioProtocol-Starting ProtocolHandler ["http-nio-9999"]
+2019-04-16 15:25:52.353 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer-Tomcat started on port(s): 9999 (http) with context path '/file-manage'
+2019-04-16 15:25:52.356 [main] INFO  com.genius.filemanage.FileManageApplication-Started FileManageApplication in 3.02 seconds (JVM running for 4.046)
+2019-04-16 15:25:57.305 [http-nio-9999-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/file-manage]-Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-04-16 15:25:57.306 [http-nio-9999-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet-Initializing Servlet 'dispatcherServlet'
+2019-04-16 15:25:57.317 [http-nio-9999-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet-Completed initialization in 11 ms
+2019-04-16 15:25:57.477 [http-nio-9999-exec-1] INFO  com.genius.filemanage.business.service.FileService--->upload Request Address : 0:0:0:0:0:0:0:1
+2019-04-16 15:25:57.479 [http-nio-9999-exec-1] INFO  com.genius.filemanage.business.service.FileService--->upload Begin. Path : /
+2019-04-16 15:25:57.480 [http-nio-9999-exec-1] INFO  com.genius.filemanage.business.service.FileService--->upload Finish. Path : 
+2019-04-16 15:25:57.482 [http-nio-9999-exec-1] INFO  com.genius.filemanage.common.utils.FileUtils--->upload fileRealName : 风景.jpg
+2019-04-16 15:25:57.482 [http-nio-9999-exec-1] INFO  com.genius.filemanage.common.utils.FileUtils--->upload fileName : 风景
+2019-04-16 15:25:57.866 [http-nio-9999-exec-1] INFO  com.genius.filemanage.common.utils.FileUtils--->upload fileRealName : timg.jpg
+2019-04-16 15:25:57.867 [http-nio-9999-exec-1] INFO  com.genius.filemanage.common.utils.FileUtils--->upload fileName : timg
+2019-04-16 15:25:58.173 [http-nio-9999-exec-1] INFO  com.genius.filemanage.common.utils.FileUtils--->upload Success file : [{"miniThumbnailPath":"/mini_风景_1555399557482.jpg","name":"风景.jpg","path":"风景_1555399557482.jpg","size":40074,"thumbnailPath":"/thumb_风景_1555399557482.jpg","type":"jpg"},{"miniThumbnailPath":"/mini_timg_1555399557867.jpg","name":"timg.jpg","path":"timg_1555399557867.jpg","size":6903,"thumbnailPath":"/thumb_timg_1555399557867.jpg","type":"jpg"}]
+2019-04-16 15:25:58.174 [http-nio-9999-exec-1] INFO  com.genius.filemanage.common.utils.FileUtils--->upload Invalid file : []
+2019-04-16 15:25:58.174 [http-nio-9999-exec-1] INFO  com.genius.filemanage.common.utils.FileUtils--->upload Fail file : []
+2019-04-16 15:29:29.229 [main] WARN  o.s.b.t.j.DuplicateJsonObjectContextCustomizerFactory$DuplicateJsonObjectContextCustomizer-
+
+Found multiple occurrences of org.json.JSONObject on the class path:
+
+	jar:file:/E:/Ths-Maven/com/vaadin/external/google/android-json/0.0.20131108.vaadin1/android-json-0.0.20131108.vaadin1.jar!/org/json/JSONObject.class
+	jar:file:/E:/Ths-Maven/org/json/json/1.1.0/json-1.1.0.jar!/org/json/JSONObject.class
+
+You may wish to exclude one of them to ensure predictable runtime behavior
+
+2019-04-16 15:29:29.254 [main] INFO  com.genius.filemanage.FileManageApplicationTests-Starting FileManageApplicationTests on DESKTOP-B7076NA with PID 50224 (started by liuxh in H:\Java\file-manage)
+2019-04-16 15:29:29.257 [main] INFO  com.genius.filemanage.FileManageApplicationTests-No active profile set, falling back to default profiles: default
+2019-04-16 15:29:31.388 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor-Initializing ExecutorService 'applicationTaskExecutor'
+2019-04-16 15:29:31.868 [main] INFO  com.genius.filemanage.FileManageApplicationTests-Started FileManageApplicationTests in 3.127 seconds (JVM running for 4.001)
+2019-04-16 15:29:32.247 [Thread-2] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor-Shutting down ExecutorService 'applicationTaskExecutor'
+2019-04-16 16:32:52.575 [main] INFO  com.genius.filemanage.FileManageApplication-Starting FileManageApplication on DESKTOP-B7076NA with PID 29560 (H:\Java\file-manage\target\classes started by liuxh in H:\Java\file-manage)
+2019-04-16 16:32:52.621 [main] INFO  com.genius.filemanage.FileManageApplication-No active profile set, falling back to default profiles: default
+2019-04-16 16:32:53.602 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer-Tomcat initialized with port(s): 9999 (http)
+2019-04-16 16:32:53.616 [main] INFO  org.apache.coyote.http11.Http11NioProtocol-Initializing ProtocolHandler ["http-nio-9999"]
+2019-04-16 16:32:53.623 [main] INFO  org.apache.catalina.core.StandardService-Starting service [Tomcat]
+2019-04-16 16:32:53.623 [main] INFO  org.apache.catalina.core.StandardEngine-Starting Servlet engine: [Apache Tomcat/9.0.17]
+2019-04-16 16:32:53.733 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/file-manage]-Initializing Spring embedded WebApplicationContext
+2019-04-16 16:32:53.734 [main] INFO  org.springframework.web.context.ContextLoader-Root WebApplicationContext: initialization completed in 1069 ms
+2019-04-16 16:32:53.976 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor-Initializing ExecutorService 'applicationTaskExecutor'
+2019-04-16 16:32:54.150 [main] INFO  org.apache.coyote.http11.Http11NioProtocol-Starting ProtocolHandler ["http-nio-9999"]
+2019-04-16 16:32:54.171 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer-Tomcat started on port(s): 9999 (http) with context path '/file-manage'
+2019-04-16 16:32:54.174 [main] INFO  com.genius.filemanage.FileManageApplication-Started FileManageApplication in 2.341 seconds (JVM running for 3.108)
+2019-04-16 16:32:58.521 [http-nio-9999-exec-3] INFO  o.a.c.c.C.[Tomcat].[localhost].[/file-manage]-Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-04-16 16:32:58.521 [http-nio-9999-exec-3] INFO  org.springframework.web.servlet.DispatcherServlet-Initializing Servlet 'dispatcherServlet'
+2019-04-16 16:32:58.529 [http-nio-9999-exec-3] INFO  org.springframework.web.servlet.DispatcherServlet-Completed initialization in 8 ms
+2019-04-16 16:32:58.638 [http-nio-9999-exec-3] INFO  com.genius.filemanage.business.service.FileService--->upload Request Address : 0:0:0:0:0:0:0:1
+2019-04-16 16:32:58.640 [http-nio-9999-exec-3] INFO  com.genius.filemanage.business.service.FileService--->upload Begin. Path : /
+2019-04-16 16:32:58.640 [http-nio-9999-exec-3] INFO  com.genius.filemanage.business.service.FileService--->upload Finish. Path : 
+2019-04-16 16:32:58.642 [http-nio-9999-exec-3] INFO  com.genius.filemanage.common.utils.FileUtils--->upload fileRealName : 风景.jpg
+2019-04-16 16:32:58.642 [http-nio-9999-exec-3] INFO  com.genius.filemanage.common.utils.FileUtils--->upload fileName : 风景
+2019-04-16 16:32:58.788 [http-nio-9999-exec-3] INFO  com.genius.filemanage.common.utils.FileUtils--->upload fileRealName : timg.jpg
+2019-04-16 16:32:58.788 [http-nio-9999-exec-3] INFO  com.genius.filemanage.common.utils.FileUtils--->upload fileName : timg
+2019-04-16 16:32:58.915 [http-nio-9999-exec-3] INFO  com.genius.filemanage.common.utils.FileUtils--->upload Success file : [{"miniThumbnailPath":"/mini_风景_1555403578642.jpg","name":"风景.jpg","path":"风景_1555403578642.jpg","size":40074,"thumbnailPath":"/thumb_风景_1555403578642.jpg","type":"jpg"},{"miniThumbnailPath":"/mini_timg_1555403578788.jpg","name":"timg.jpg","path":"timg_1555403578788.jpg","size":6903,"thumbnailPath":"/thumb_timg_1555403578788.jpg","type":"jpg"}]
+2019-04-16 16:32:58.916 [http-nio-9999-exec-3] INFO  com.genius.filemanage.common.utils.FileUtils--->upload Invalid file : []
+2019-04-16 16:32:58.916 [http-nio-9999-exec-3] INFO  com.genius.filemanage.common.utils.FileUtils--->upload Fail file : []
+2019-04-16 16:32:58.971 [http-nio-9999-exec-3] WARN  o.s.w.s.m.support.DefaultHandlerExceptionResolver-Resolved [org.springframework.http.converter.HttpMessageNotWritableException: No converter found for return value of type: class com.genius.filemanage.business.entity.FileResult]
+2019-04-16 16:35:47.888 [main] INFO  com.genius.filemanage.FileManageApplication-Starting FileManageApplication on DESKTOP-B7076NA with PID 17224 (H:\Java\file-manage\target\classes started by liuxh in H:\Java\file-manage)
+2019-04-16 16:35:47.899 [main] INFO  com.genius.filemanage.FileManageApplication-No active profile set, falling back to default profiles: default
+2019-04-16 16:35:48.940 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer-Tomcat initialized with port(s): 9999 (http)
+2019-04-16 16:35:48.954 [main] INFO  org.apache.coyote.http11.Http11NioProtocol-Initializing ProtocolHandler ["http-nio-9999"]
+2019-04-16 16:35:48.961 [main] INFO  org.apache.catalina.core.StandardService-Starting service [Tomcat]
+2019-04-16 16:35:48.962 [main] INFO  org.apache.catalina.core.StandardEngine-Starting Servlet engine: [Apache Tomcat/9.0.17]
+2019-04-16 16:35:49.075 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/file-manage]-Initializing Spring embedded WebApplicationContext
+2019-04-16 16:35:49.076 [main] INFO  org.springframework.web.context.ContextLoader-Root WebApplicationContext: initialization completed in 1096 ms
+2019-04-16 16:35:49.340 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor-Initializing ExecutorService 'applicationTaskExecutor'
+2019-04-16 16:35:49.540 [main] INFO  org.apache.coyote.http11.Http11NioProtocol-Starting ProtocolHandler ["http-nio-9999"]
+2019-04-16 16:35:49.572 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer-Tomcat started on port(s): 9999 (http) with context path '/file-manage'
+2019-04-16 16:35:49.577 [main] INFO  com.genius.filemanage.FileManageApplication-Started FileManageApplication in 2.368 seconds (JVM running for 3.117)
+2019-04-16 16:36:14.623 [http-nio-9999-exec-4] INFO  o.a.c.c.C.[Tomcat].[localhost].[/file-manage]-Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-04-16 16:36:14.626 [http-nio-9999-exec-4] INFO  org.springframework.web.servlet.DispatcherServlet-Initializing Servlet 'dispatcherServlet'
+2019-04-16 16:36:14.648 [http-nio-9999-exec-4] INFO  org.springframework.web.servlet.DispatcherServlet-Completed initialization in 22 ms
+2019-04-16 16:36:14.746 [http-nio-9999-exec-4] INFO  com.genius.filemanage.business.service.FileService--->upload Request Address : 0:0:0:0:0:0:0:1
+2019-04-16 16:36:14.748 [http-nio-9999-exec-4] INFO  com.genius.filemanage.business.service.FileService--->upload Begin. Path : /
+2019-04-16 16:36:14.748 [http-nio-9999-exec-4] INFO  com.genius.filemanage.business.service.FileService--->upload Finish. Path : 
+2019-04-16 16:36:14.749 [http-nio-9999-exec-4] INFO  com.genius.filemanage.common.utils.FileUtils--->upload fileRealName : 风景.jpg
+2019-04-16 16:36:14.750 [http-nio-9999-exec-4] INFO  com.genius.filemanage.common.utils.FileUtils--->upload fileName : 风景
+2019-04-16 16:36:15.047 [http-nio-9999-exec-4] INFO  com.genius.filemanage.common.utils.FileUtils--->upload fileRealName : timg.jpg
+2019-04-16 16:36:15.047 [http-nio-9999-exec-4] INFO  com.genius.filemanage.common.utils.FileUtils--->upload fileName : timg
+2019-04-16 16:36:15.236 [http-nio-9999-exec-4] INFO  com.genius.filemanage.common.utils.FileUtils--->upload Success file : [{"miniThumbnailPath":"/mini_风景_1555403774751.jpg","name":"风景.jpg","path":"风景_1555403774751.jpg","size":40074,"thumbnailPath":"/thumb_风景_1555403774751.jpg","type":"jpg"},{"miniThumbnailPath":"/mini_timg_1555403775047.jpg","name":"timg.jpg","path":"timg_1555403775047.jpg","size":6903,"thumbnailPath":"/thumb_timg_1555403775047.jpg","type":"jpg"}]
+2019-04-16 16:36:15.237 [http-nio-9999-exec-4] INFO  com.genius.filemanage.common.utils.FileUtils--->upload Invalid file : []
+2019-04-16 16:36:15.238 [http-nio-9999-exec-4] INFO  com.genius.filemanage.common.utils.FileUtils--->upload Fail file : []
+2019-04-16 16:36:15.338 [http-nio-9999-exec-4] WARN  o.s.w.s.m.support.DefaultHandlerExceptionResolver-Resolved [org.springframework.http.converter.HttpMessageNotWritableException: No converter found for return value of type: class com.genius.filemanage.business.entity.FileResult]
+2019-04-16 16:37:02.757 [main] INFO  com.genius.filemanage.FileManageApplication-Starting FileManageApplication on DESKTOP-B7076NA with PID 53352 (H:\Java\file-manage\target\classes started by liuxh in H:\Java\file-manage)
+2019-04-16 16:37:02.766 [main] INFO  com.genius.filemanage.FileManageApplication-No active profile set, falling back to default profiles: default
+2019-04-16 16:37:03.810 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer-Tomcat initialized with port(s): 9999 (http)
+2019-04-16 16:37:03.826 [main] INFO  org.apache.coyote.http11.Http11NioProtocol-Initializing ProtocolHandler ["http-nio-9999"]
+2019-04-16 16:37:03.834 [main] INFO  org.apache.catalina.core.StandardService-Starting service [Tomcat]
+2019-04-16 16:37:03.834 [main] INFO  org.apache.catalina.core.StandardEngine-Starting Servlet engine: [Apache Tomcat/9.0.17]
+2019-04-16 16:37:03.948 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/file-manage]-Initializing Spring embedded WebApplicationContext
+2019-04-16 16:37:03.949 [main] INFO  org.springframework.web.context.ContextLoader-Root WebApplicationContext: initialization completed in 1108 ms
+2019-04-16 16:37:04.165 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor-Initializing ExecutorService 'applicationTaskExecutor'
+2019-04-16 16:37:04.329 [main] INFO  org.apache.coyote.http11.Http11NioProtocol-Starting ProtocolHandler ["http-nio-9999"]
+2019-04-16 16:37:04.350 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer-Tomcat started on port(s): 9999 (http) with context path '/file-manage'
+2019-04-16 16:37:04.354 [main] INFO  com.genius.filemanage.FileManageApplication-Started FileManageApplication in 2.327 seconds (JVM running for 2.972)
+2019-04-16 16:37:12.236 [http-nio-9999-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/file-manage]-Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-04-16 16:37:12.236 [http-nio-9999-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet-Initializing Servlet 'dispatcherServlet'
+2019-04-16 16:37:12.246 [http-nio-9999-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet-Completed initialization in 9 ms
+2019-04-16 16:37:12.331 [http-nio-9999-exec-1] INFO  com.genius.filemanage.business.service.FileService--->upload Request Address : 0:0:0:0:0:0:0:1
+2019-04-16 16:37:12.333 [http-nio-9999-exec-1] INFO  com.genius.filemanage.business.service.FileService--->upload Begin. Path : /
+2019-04-16 16:37:12.334 [http-nio-9999-exec-1] INFO  com.genius.filemanage.business.service.FileService--->upload Finish. Path : 
+2019-04-16 16:37:12.336 [http-nio-9999-exec-1] INFO  com.genius.filemanage.common.utils.FileUtils--->upload fileRealName : 风景.jpg
+2019-04-16 16:37:12.336 [http-nio-9999-exec-1] INFO  com.genius.filemanage.common.utils.FileUtils--->upload fileName : 风景
+2019-04-16 16:37:12.692 [http-nio-9999-exec-1] INFO  com.genius.filemanage.common.utils.FileUtils--->upload fileRealName : timg.jpg
+2019-04-16 16:37:12.693 [http-nio-9999-exec-1] INFO  com.genius.filemanage.common.utils.FileUtils--->upload fileName : timg
+2019-04-16 16:37:12.914 [http-nio-9999-exec-1] INFO  com.genius.filemanage.common.utils.FileUtils--->upload Success file : [{"miniThumbnailPath":"/mini_风景_1555403832336.jpg","name":"风景.jpg","path":"风景_1555403832336.jpg","size":40074,"thumbnailPath":"/thumb_风景_1555403832336.jpg","type":"jpg"},{"miniThumbnailPath":"/mini_timg_1555403832694.jpg","name":"timg.jpg","path":"timg_1555403832694.jpg","size":6903,"thumbnailPath":"/thumb_timg_1555403832694.jpg","type":"jpg"}]
+2019-04-16 16:37:12.915 [http-nio-9999-exec-1] INFO  com.genius.filemanage.common.utils.FileUtils--->upload Invalid file : []
+2019-04-16 16:37:12.915 [http-nio-9999-exec-1] INFO  com.genius.filemanage.common.utils.FileUtils--->upload Fail file : []
+2019-04-16 16:50:39.854 [main] INFO  com.genius.filemanage.FileManageApplication-Starting FileManageApplication on DESKTOP-B7076NA with PID 25096 (H:\Java\file-manage\target\classes started by liuxh in H:\Java\file-manage)
+2019-04-16 16:50:39.862 [main] INFO  com.genius.filemanage.FileManageApplication-No active profile set, falling back to default profiles: default
+2019-04-16 16:50:41.049 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer-Tomcat initialized with port(s): 9999 (http)
+2019-04-16 16:50:41.064 [main] INFO  org.apache.coyote.http11.Http11NioProtocol-Initializing ProtocolHandler ["http-nio-9999"]
+2019-04-16 16:50:41.071 [main] INFO  org.apache.catalina.core.StandardService-Starting service [Tomcat]
+2019-04-16 16:50:41.072 [main] INFO  org.apache.catalina.core.StandardEngine-Starting Servlet engine: [Apache Tomcat/9.0.17]
+2019-04-16 16:50:41.222 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/file-manage]-Initializing Spring embedded WebApplicationContext
+2019-04-16 16:50:41.222 [main] INFO  org.springframework.web.context.ContextLoader-Root WebApplicationContext: initialization completed in 1268 ms
+2019-04-16 16:50:41.453 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor-Initializing ExecutorService 'applicationTaskExecutor'
+2019-04-16 16:50:41.673 [main] INFO  org.apache.coyote.http11.Http11NioProtocol-Starting ProtocolHandler ["http-nio-9999"]
+2019-04-16 16:50:41.705 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer-Tomcat started on port(s): 9999 (http) with context path '/file-manage'
+2019-04-16 16:50:41.710 [main] INFO  com.genius.filemanage.FileManageApplication-Started FileManageApplication in 2.527 seconds (JVM running for 3.193)
+2019-04-16 16:50:48.946 [http-nio-9999-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/file-manage]-Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-04-16 16:50:48.947 [http-nio-9999-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet-Initializing Servlet 'dispatcherServlet'
+2019-04-16 16:50:48.965 [http-nio-9999-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet-Completed initialization in 18 ms
+2019-04-16 16:50:49.052 [http-nio-9999-exec-1] INFO  com.genius.filemanage.business.service.FileService--->upload Request Address : 0:0:0:0:0:0:0:1
+2019-04-16 16:50:49.054 [http-nio-9999-exec-1] INFO  com.genius.filemanage.business.service.FileService--->upload Begin. Path : /
+2019-04-16 16:50:49.054 [http-nio-9999-exec-1] INFO  com.genius.filemanage.business.service.FileService--->upload Finish. Path : 
+2019-04-16 16:50:49.055 [http-nio-9999-exec-1] INFO  com.genius.filemanage.common.utils.FileUtils--->upload fileRealName : 风景.jpg
+2019-04-16 16:50:49.055 [http-nio-9999-exec-1] INFO  com.genius.filemanage.common.utils.FileUtils--->upload fileName : 风景
+2019-04-16 16:50:49.276 [http-nio-9999-exec-1] INFO  com.genius.filemanage.common.utils.FileUtils--->upload fileRealName : timg.jpg
+2019-04-16 16:50:49.276 [http-nio-9999-exec-1] INFO  com.genius.filemanage.common.utils.FileUtils--->upload fileName : timg
+2019-04-16 16:50:49.480 [http-nio-9999-exec-1] INFO  com.genius.filemanage.common.utils.FileUtils--->upload Success file : [{"miniThumbnailPath":"/mini_风景_1555404649056.jpg","name":"风景.jpg","path":"风景_1555404649056.jpg","size":40074,"thumbnailPath":"/thumb_风景_1555404649056.jpg","type":"jpg"},{"miniThumbnailPath":"/mini_timg_1555404649276.jpg","name":"timg.jpg","path":"timg_1555404649276.jpg","size":6903,"thumbnailPath":"/thumb_timg_1555404649276.jpg","type":"jpg"}]
+2019-04-16 16:50:49.481 [http-nio-9999-exec-1] INFO  com.genius.filemanage.common.utils.FileUtils--->upload Invalid file : []
+2019-04-16 16:50:49.481 [http-nio-9999-exec-1] INFO  com.genius.filemanage.common.utils.FileUtils--->upload Fail file : []
+2019-04-16 16:50:49.543 [http-nio-9999-exec-1] WARN  o.s.w.s.m.support.DefaultHandlerExceptionResolver-Resolved [org.springframework.http.converter.HttpMessageNotWritableException: No converter found for return value of type: class com.genius.filemanage.business.entity.FileResult]
+2019-04-16 16:51:09.770 [main] INFO  com.genius.filemanage.FileManageApplication-Starting FileManageApplication on DESKTOP-B7076NA with PID 29372 (H:\Java\file-manage\target\classes started by liuxh in H:\Java\file-manage)
+2019-04-16 16:51:09.779 [main] INFO  com.genius.filemanage.FileManageApplication-No active profile set, falling back to default profiles: default
+2019-04-16 16:51:11.094 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer-Tomcat initialized with port(s): 9999 (http)
+2019-04-16 16:51:11.112 [main] INFO  org.apache.coyote.http11.Http11NioProtocol-Initializing ProtocolHandler ["http-nio-9999"]
+2019-04-16 16:51:11.131 [main] INFO  org.apache.catalina.core.StandardService-Starting service [Tomcat]
+2019-04-16 16:51:11.132 [main] INFO  org.apache.catalina.core.StandardEngine-Starting Servlet engine: [Apache Tomcat/9.0.17]
+2019-04-16 16:51:11.316 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/file-manage]-Initializing Spring embedded WebApplicationContext
+2019-04-16 16:51:11.316 [main] INFO  org.springframework.web.context.ContextLoader-Root WebApplicationContext: initialization completed in 1361 ms
+2019-04-16 16:51:11.792 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor-Initializing ExecutorService 'applicationTaskExecutor'
+2019-04-16 16:51:12.225 [main] INFO  org.apache.coyote.http11.Http11NioProtocol-Starting ProtocolHandler ["http-nio-9999"]
+2019-04-16 16:51:12.271 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer-Tomcat started on port(s): 9999 (http) with context path '/file-manage'
+2019-04-16 16:51:12.297 [main] INFO  com.genius.filemanage.FileManageApplication-Started FileManageApplication in 3.463 seconds (JVM running for 4.158)
+2019-04-16 16:51:15.784 [http-nio-9999-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/file-manage]-Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-04-16 16:51:15.785 [http-nio-9999-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet-Initializing Servlet 'dispatcherServlet'
+2019-04-16 16:51:15.794 [http-nio-9999-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet-Completed initialization in 8 ms
+2019-04-16 16:51:15.893 [http-nio-9999-exec-1] INFO  com.genius.filemanage.business.service.FileService--->upload Request Address : 0:0:0:0:0:0:0:1
+2019-04-16 16:51:15.896 [http-nio-9999-exec-1] INFO  com.genius.filemanage.business.service.FileService--->upload Begin. Path : /
+2019-04-16 16:51:15.896 [http-nio-9999-exec-1] INFO  com.genius.filemanage.business.service.FileService--->upload Finish. Path : 
+2019-04-16 16:51:15.897 [http-nio-9999-exec-1] INFO  com.genius.filemanage.common.utils.FileUtils--->upload fileRealName : 风景.jpg
+2019-04-16 16:51:15.897 [http-nio-9999-exec-1] INFO  com.genius.filemanage.common.utils.FileUtils--->upload fileName : 风景
+2019-04-16 16:51:16.088 [http-nio-9999-exec-1] INFO  com.genius.filemanage.common.utils.FileUtils--->upload fileRealName : timg.jpg
+2019-04-16 16:51:16.088 [http-nio-9999-exec-1] INFO  com.genius.filemanage.common.utils.FileUtils--->upload fileName : timg
+2019-04-16 16:51:16.324 [http-nio-9999-exec-1] INFO  com.genius.filemanage.common.utils.FileUtils--->upload Success file : [{"miniThumbnailPath":"/mini_风景_1555404675897.jpg","name":"风景.jpg","path":"风景_1555404675897.jpg","size":40074,"thumbnailPath":"/thumb_风景_1555404675897.jpg","type":"jpg"},{"miniThumbnailPath":"/mini_timg_1555404676088.jpg","name":"timg.jpg","path":"timg_1555404676088.jpg","size":6903,"thumbnailPath":"/thumb_timg_1555404676088.jpg","type":"jpg"}]
+2019-04-16 16:51:16.324 [http-nio-9999-exec-1] INFO  com.genius.filemanage.common.utils.FileUtils--->upload Invalid file : []
+2019-04-16 16:51:16.324 [http-nio-9999-exec-1] INFO  com.genius.filemanage.common.utils.FileUtils--->upload Fail file : []
+2019-04-16 16:58:24.462 [main] INFO  com.genius.filemanage.FileManageApplication-Starting FileManageApplication on DESKTOP-B7076NA with PID 18208 (H:\Java\file-manage\target\classes started by liuxh in H:\Java\file-manage)
+2019-04-16 16:58:24.479 [main] INFO  com.genius.filemanage.FileManageApplication-No active profile set, falling back to default profiles: default
+2019-04-16 16:58:26.150 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer-Tomcat initialized with port(s): 9999 (http)
+2019-04-16 16:58:26.169 [main] INFO  org.apache.coyote.http11.Http11NioProtocol-Initializing ProtocolHandler ["http-nio-9999"]
+2019-04-16 16:58:26.178 [main] INFO  org.apache.catalina.core.StandardService-Starting service [Tomcat]
+2019-04-16 16:58:26.179 [main] INFO  org.apache.catalina.core.StandardEngine-Starting Servlet engine: [Apache Tomcat/9.0.17]
+2019-04-16 16:58:26.351 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/file-manage]-Initializing Spring embedded WebApplicationContext
+2019-04-16 16:58:26.351 [main] INFO  org.springframework.web.context.ContextLoader-Root WebApplicationContext: initialization completed in 1711 ms
+2019-04-16 16:58:27.007 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor-Initializing ExecutorService 'applicationTaskExecutor'
+2019-04-16 16:58:27.351 [main] INFO  org.apache.coyote.http11.Http11NioProtocol-Starting ProtocolHandler ["http-nio-9999"]
+2019-04-16 16:58:27.392 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer-Tomcat started on port(s): 9999 (http) with context path '/file-manage'
+2019-04-16 16:58:27.397 [main] INFO  com.genius.filemanage.FileManageApplication-Started FileManageApplication in 3.761 seconds (JVM running for 4.604)
+2019-04-16 16:59:22.475 [http-nio-9999-exec-2] INFO  o.a.c.c.C.[Tomcat].[localhost].[/file-manage]-Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-04-16 16:59:22.475 [http-nio-9999-exec-2] INFO  org.springframework.web.servlet.DispatcherServlet-Initializing Servlet 'dispatcherServlet'
+2019-04-16 16:59:22.482 [http-nio-9999-exec-2] INFO  org.springframework.web.servlet.DispatcherServlet-Completed initialization in 7 ms
+2019-04-16 16:59:22.587 [http-nio-9999-exec-2] INFO  com.genius.filemanage.business.service.FileService--->upload Request Address : 0:0:0:0:0:0:0:1
+2019-04-16 16:59:22.590 [http-nio-9999-exec-2] INFO  com.genius.filemanage.business.service.FileService--->upload Begin. Path : /
+2019-04-16 16:59:22.590 [http-nio-9999-exec-2] INFO  com.genius.filemanage.business.service.FileService--->upload Finish. Path : 
+2019-04-16 16:59:22.592 [http-nio-9999-exec-2] INFO  com.genius.filemanage.common.utils.FileUtils--->upload fileRealName : 风景.jpg
+2019-04-16 16:59:22.592 [http-nio-9999-exec-2] INFO  com.genius.filemanage.common.utils.FileUtils--->upload fileName : 风景
+2019-04-16 16:59:22.794 [http-nio-9999-exec-2] INFO  com.genius.filemanage.common.utils.FileUtils--->upload fileRealName : timg.jpg
+2019-04-16 16:59:22.795 [http-nio-9999-exec-2] INFO  com.genius.filemanage.common.utils.FileUtils--->upload fileName : timg
+2019-04-16 16:59:22.990 [http-nio-9999-exec-2] INFO  com.genius.filemanage.common.utils.FileUtils--->upload Success file : [{"miniThumbnailPath":"/mini_风景_1555405162592.jpg","name":"风景.jpg","path":"风景_1555405162592.jpg","size":40074,"thumbnailPath":"/thumb_风景_1555405162592.jpg","type":"jpg"},{"miniThumbnailPath":"/mini_timg_1555405162795.jpg","name":"timg.jpg","path":"timg_1555405162795.jpg","size":6903,"thumbnailPath":"/thumb_timg_1555405162795.jpg","type":"jpg"}]
+2019-04-16 16:59:22.990 [http-nio-9999-exec-2] INFO  com.genius.filemanage.common.utils.FileUtils--->upload Invalid file : []
+2019-04-16 16:59:22.991 [http-nio-9999-exec-2] INFO  com.genius.filemanage.common.utils.FileUtils--->upload Fail file : []
